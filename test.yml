@@ -1,0 +1,9 @@
+---
+Awaken: !ruby/object:Movie
+  title: Awaken
+  director: Hayao Miyazaki
+  year: 2001
+Inception: !ruby/object:Movie
+  title: Inception
+  director: Christopher Nolan
+  year: 2010
