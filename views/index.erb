@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ='UTF-8'>
+    </head>
+    <body>
+        <h1>My Movies</h1>
+        <ul>
+            <% @movies.each do |movie|%>
+                <li> <a href="/movies/<%= movie.id %>"><%= movie.title %></a> </li>
+            <% end %>
+        </ul>
+        <a href="/movies">Add New Movie</a>
+    </body>
+</html>
